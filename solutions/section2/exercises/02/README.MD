@@ -1,4 +1,4 @@
-Consider the following program:
+Рассмотрим следующую программу:
 
 ```c
 #include <stdio.h>
@@ -11,5 +11,5 @@ int main(void) {
 }
 ```
 
-(a) Identify the directives and statements in this program.
-(b) What output does the program produce?
+(a) Определите директивы и инструкции в этой программе.
+(b) Какой вывод производит программа?
