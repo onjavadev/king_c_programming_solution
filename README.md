@@ -1,2 +1,2 @@
-# king_c_programming_solution
-My solutions to exercises and programming projects
+# King K.N. C Programming решения задач и проекты программирования
+Мои варианты решения. 
