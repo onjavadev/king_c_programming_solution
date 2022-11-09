@@ -1,4 +1,4 @@
-Create and run Kernighan and Ritchie's famouse "hello, world" program:
+Создать и запустить Kernighan и Ritchie's знаменитую программу "hello, world":
 
 ```shell
 #include <stdio.h>
@@ -8,4 +8,4 @@ int main(void) {
 }
 ```
 
-Do you get a warning message from the compiler? If so, what's needed to make it go away?
+Получаете ли вы предупреждающее сообщение от компилятора? Если да, чт нужно сделать чтобы оно исчезло?
