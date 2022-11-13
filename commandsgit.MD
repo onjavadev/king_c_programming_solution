@@ -48,3 +48,10 @@ To github.com:onjavadev/king_c_programming_solution.git
    6e3c82f..0861b39  main -> main
 ```
 
+Обновить локальный репозиторий из удаленного на github
+```shell
+$ git pull origin main
+From github.com:onjavadev/king_c_programming_solution
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+```
