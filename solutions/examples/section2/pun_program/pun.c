@@ -1,3 +1,10 @@
+/****************************************************
+ * Program name: pun.c                              *
+ * Date written: 15/03/2023                         *
+ * Author: Mark                                     *
+ * Purpose: Just example of simple C program        *
+ ****************************************************/
+
 // 1. Чтобы скомпилировать программу выполняем:
 // gcc -o имя_программы имя_исходного_файла.c
 
@@ -10,7 +17,8 @@
 #include <stdio.h>
 
 // для запуска программы нам обязательно нужна функция main, которая возвращает int, а принимает void
-int main(void)
+
+int main(void) /* Beginning of main program */
 {
    // печатает сообщение, которое находится между двойных кавычек
    printf("To C, or not to C: that is the question.\n");
