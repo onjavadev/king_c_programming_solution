@@ -11,28 +11,31 @@ int main(void)
 {
 
    // Объявляем переменные
-   int length,
-       width,
-       height,
-       volume,
-       weight;
+   int length = 0,
+       width  = 0,
+       height = 0;
+   //  volume = 0,
+   //  weight = 0;
 
    // Statements
-   // присваиваем тестовые значения
-   length = 12;
-   width = 10;
-   height = 8;
+   printf("Enter length: ");
+   scanf("%d", &length);
+   printf("Enter width: ");
+   scanf("%d", &width);
+   printf("Enter height: ");
+   scanf("%d", &height);
+
 
    // вычисляем объем используя не конастаны, а значения переменных
-   volume = length * width * height;
+   // volume = length * width * height;
 
    // вычисляем объемный вес
-   weight = (volume + 165) / 166;
+   // weight = (volume + 165) / 166;
 
    // инструкции для печати результата на экране
    printf("Dimensions: %dx%dx%d\n", length, width, height);
-   printf("Volume (cubic inches): %d\n", volume);
-   printf("Dimensional Weight of the box (pounds): %d\n", weight);
+   printf("Volume (cubic inches): %d\n", length * width * height);
+   printf("Dimensional Weight of the box (pounds): %d\n", ((length * width * height) + 165) / 166);
 
    return 0;
 }
