@@ -6,6 +6,8 @@
  */
 
 #include <stdio.h>
+// первая константа
+#define INCHES_PER_POUND 166
 
 int main(void)
 {
@@ -35,7 +37,7 @@ int main(void)
    // инструкции для печати результата на экране
    printf("Dimensions: %dx%dx%d\n", length, width, height);
    printf("Volume (cubic inches): %d\n", length * width * height);
-   printf("Dimensional Weight of the box (pounds): %d\n", ((length * width * height) + 165) / 166);
+   printf("Dimensional Weight of the box (pounds): %d\n", ((length * width * height) + (INCHES_PER_POUND - 1)) / INCHES_PER_POUND);
 
    return 0;
 }
